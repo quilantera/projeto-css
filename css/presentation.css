@@ -1,0 +1,72 @@
+.presentation{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.presentation h1{
+  font-size: var(--title);
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: var(--2x);
+}
+.presentation h3{
+  font-size: var(--large);
+  font-weight: 500; 
+  padding-bottom: var(--4x);
+}
+.presentation-links{
+  display: flex;
+  justify-content: center;
+  gap: var(--4x);
+}
+.button-link{
+  margin-top: var(--2x);
+  display: block;
+  text-decoration: none;
+  padding: var(--3x) var(--4x);
+  transition: 0.5s;
+  font-size: var(--small);
+  text-transform: uppercase;
+  font-weight: 500;
+
+  letter-spacing: 0.2px;
+  background:#0B1121;
+  border: 2px solid #E2E8F0;
+  color: #E2E8F0;
+  transition: 0.3s
+}
+.button-link:hover {
+  background: #E2E8F0;
+  color: #0B1121;
+  box-shadow: 1px 1px 20px #E2E8F0;
+  letter-spacing: 0.6px;
+}
+.my-contact{
+  margin-top: var(--8x);
+  display: flex; 
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: var(--6x);
+}
+.my-contact a{
+  display: flex;
+  align-items: center;
+  gap: var(--2x);
+  text-decoration: none;
+  font-size: var(--medium);
+  color: var(--text-secondary);
+}
+.my-contact a i{
+  font-size: var(--medium-large);
+}
+.my-contact a:hover{
+  color: var(--text-primary); 
+  background-color: var(--background);
+}
+@media screen and (max-width: 1024px){
+  .presetantion{
+    height: 70vh;
+  }
+}
