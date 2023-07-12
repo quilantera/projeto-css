@@ -47,7 +47,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   background-color:var(--background1);
-  background-image: url('/assets/bg-texture.png');
+  background-image: url('../assets/bg-texture.png');
   text-rendering: optimizeLegibility;
 }
 main{
