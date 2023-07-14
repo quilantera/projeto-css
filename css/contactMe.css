@@ -1,33 +1,33 @@
-.contact-me{
-  width: 46px;
-  height: 46px;
-  position: fixed;
-  bottom: 10%;
-  right: 2%;
-  z-index: 100;
-  background: #0f172a36;
-  border: 2px solid #94a3b84d;
-  cursor: pointer;  
-  border-radius:3rem;
+.contact-me {
+    width: 46px;
+    height: 46px;
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+    z-index: 100;
+    background: #0f172a36;
+    border: 2px solid #94a3b84d;
+    cursor: pointer;
+    border-radius: 3rem;
 }
-.contact-me i{
-  font-size: var(--large);
-  color: #e2e8f071;
+.contact-me i {
+    font-size: var(--large);
+    color: #e2e8f071;
 }
 .contact-me:hover {
-  background-color: var(--background1);
-  border: 2px solid var(--text-secondary);
+    background-color: var(--background1);
+    border: 2px solid var(--text-secondary);
 }
-.contact-me:hover i{
-  color: var(--text-primary);
+.contact-me:hover i {
+    color: var(--text-primary);
 }
-@media screen and (max-width: 1024px){
-  .contact-me{
-    width: 50px;
-    height: 50px;
-    bottom: 5%;
-  }
-  .contact-me i{
-    font-size: var(--large);
-  }
+@media screen and (max-width: 1024px) {
+    .contact-me {
+        width: 50px;
+        height: 50px;
+        bottom: 5%;
+    }
+    .contact-me i {
+        font-size: var(--large);
+    }
 }

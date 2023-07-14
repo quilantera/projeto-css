@@ -1,4 +1,4 @@
-aside{
+aside {
     width: 18vw;
     position: fixed;
     height: 100vh;
@@ -8,7 +8,7 @@ aside{
     justify-content: space-between;
     padding: var(--8x) var(--4x);
     padding-bottom: var(--6x);
-  }
+}
 .resume-profile {
     display: flex;
     flex-direction: column;
